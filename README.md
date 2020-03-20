@@ -12,6 +12,8 @@ using singularity containers as lightweight snap or flatpak applications.
       - Sublime Text
       - Visual Studio Code
 
+  * Windows
+      - wine
 ! Note there are issues in the initial commit which means
 some functionality may be unavailable in the applications.
 
