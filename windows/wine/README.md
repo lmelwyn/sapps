@@ -1,4 +1,4 @@
-# Visual Studio Code editor / IDE 
+# WINE
 
 ## Howto run 
 
@@ -6,14 +6,13 @@ In the case environment modules have been configured correctly it
 suffices to load the module, e.g. 
 
 ```
-module load ide/vscode
-code
+module load wine
 ```
 
 else run the container directly with singularity 
 
 ```
-singularity exec -B /run /apps/external/sapps/ide/vscode /usr/bin/code
+singularity exec /apps/external/sapps/wine wine 
 ```
 
 ## Howto build
@@ -21,11 +20,11 @@ singularity exec -B /run /apps/external/sapps/ide/vscode /usr/bin/code
 The application was build using singularity and the definition file
 
 ```
-sudo singularity build vscode.sif vscode.def
+sudo singularity build wine.sif wine.def
 ```
 
 ## Links 
 
-  *  https://code.visualstudio.com/
+  *  https://wiki.winehq.org/Winetricks
 
 ```

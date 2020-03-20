@@ -1,0 +1,14 @@
+BootStrap: docker
+From: centos:centos7
+
+%runscript
+echo "running wine from the container:"
+echo "singularity exec wine.sif wine"
+
+
+%post
+yum -y upgrade
+yum -y install wget epel-release libX11-devel freetype-devel zlib-devel libxcb-devel \
+libxslt-devel libgcrypt-devel libxml2-devel gnutls-devel libpng-devel \
+libjpeg-turbo-devel libtiff-devel gstreamer-devel dbus-devel fontconfig-devel 
+yum -y install wine
