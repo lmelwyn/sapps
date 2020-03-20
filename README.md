@@ -5,6 +5,16 @@ of security issues usually associated with Docker. It is here utilized to make
 an environment modules oriented proof-of-concept container package system
 using singularity containers as lightweight snap or flatpak applications.
 
+## Applications 
+
+  * Editors / IDEs 
+      - Atom
+      - Sublime Text
+      - Visual Studio Code
+
+! Note there are issues in the initial commit which means
+some functionality may be unavailable in the applications.
+
 ## Howto install 
 
 ### Install requirements 
@@ -77,9 +87,3 @@ In order to load Visual Studio Code editor do
 module load ide/vscode
 ```
 
-## Applications 
-
-  * Editor / IDE 
-      - Atom
-      - Sublime Text
-      - Visual Studio Code
