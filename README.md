@@ -3,7 +3,7 @@
 Singularity is a container framework designed for HPC which resolve a number
 of security issues usually associated with Docker. It is here utilized to make 
 an environment modules oriented proof-of-concept container package system
-using singularity containers as a lightweight snap or flatpak applications.
+using singularity containers as lightweight snap or flatpak applications.
 
 ## Howto install 
 
