@@ -43,10 +43,10 @@ git clone https://github.com/lmelwyn/sapps.git
 ### Build the containers
 
 The repoitory does not contain the singularity containers and the application definition \<app\>.def files must be
-used to build the various containers using the **singularity build** command or using the Makefile in ./sapps 
+used to build the various containers using the **singularity build** command or using the Makefile in ./sapps  subdirs, e.g.
 
 ```
-cd sapps
+cd sapps/ide
 sudo make
 ```
 
