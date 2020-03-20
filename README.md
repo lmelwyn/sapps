@@ -82,9 +82,10 @@ module --ignore_cache avail
 
 ### Load the application
 
-In order to load Visual Studio Code editor do  
+In order to load and run Visual Studio Code editor do  
 
 ```
 module load ide/vscode
+code
 ```
 
