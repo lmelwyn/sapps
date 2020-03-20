@@ -1,0 +1,19 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=atom
+GenericName[en_US]=Atom IDE
+GenericName=Atom IDE
+Icon=atom
+MimeType=
+Name[en_US]=atom
+Name=atom
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=

@@ -1,0 +1,13 @@
+BootStrap: docker
+From: centos:centos8
+
+%runscript
+echo "running code from the container:"
+echo "singularity exec atom.sif /usr/bin/atom "
+
+
+%post
+yum -y upgrade
+yum -y install wget libX11-xcb gtk3 alsa-lib-devel  libxkbfile libstdc++
+wget -O /tmp/atom.x86_64.rpm https://atom.io/download/rpm
+yum -y localinstall /tmp/atom.x86_64.rpm 

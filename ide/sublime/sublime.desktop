@@ -1,0 +1,19 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=subl
+GenericName[en_US]=Sublime IDE
+GenericName=Sublime IDE
+Icon=sublime-text
+MimeType=
+Name[en_US]=sublime
+Name=sublime
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=
