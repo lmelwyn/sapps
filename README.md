@@ -44,8 +44,9 @@ used to build the various containers using the **singularity build** command or 
 
 ```
 cd sapps
-sudo Make
+sudo make
 ```
+
 
 Alternatively, reconfigure the various Makefiles in order to use the [--fakeroot](https://sylabs.io/guides/3.3/user-guide/fakeroot.html) feature.
 
