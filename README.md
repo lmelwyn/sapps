@@ -53,6 +53,10 @@ sudo make
 
 Alternatively, reconfigure the various Makefiles in order to use the [--fakeroot](https://sylabs.io/guides/3.3/user-guide/fakeroot.html) feature.
 
+Note that eventhough the current setup requires privileged access in order to build the containers the idea is to build those separately as a part of a CI/CD workflow and eventually to replace the make with a pull from existing docker or singularity registries.  
+
+
+
 ### Define the application path SAPP_PATH
 
 Export the singularity applications path (SAPP_PATH) environment variable to be the local install path,  e.g.
