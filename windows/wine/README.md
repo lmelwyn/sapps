@@ -12,7 +12,7 @@ module load wine
 else run the container directly with singularity 
 
 ```
-singularity exec /apps/external/sapps/wine wine 
+singularity exec /apps/external/sapps/wine.sif wine 
 ```
 
 ## Howto build
