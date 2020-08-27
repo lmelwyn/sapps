@@ -2,8 +2,8 @@
 Comment[en_US]=
 Comment=
 Exec=code
-GenericName[en_US]=Sublime IDE
-GenericName=Sublime IDE
+GenericName[en_US]=Visual Studio IDE
+GenericName=Visual Studio IDE
 Icon=code
 MimeType=
 Name[en_US]=code
