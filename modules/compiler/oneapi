@@ -1,0 +1,13 @@
+#%Module 1.0
+#
+#  singularity application module for use with 'environment-modules' package:
+#
+
+
+if { [ info exists ::env(SAPP_PATH) ] }  {
+  set		MYPATH	$env(SAPP_PATH)
+} else {
+  set           MYPATH  /apps/external/sapps
+}
+prepend-path    PATH    $MYPATH/compiler/oneapi/bin
+

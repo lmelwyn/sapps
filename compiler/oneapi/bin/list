@@ -1,0 +1,13 @@
+aocl-ioc64
+dpcpp-cl
+fpp
+ia32
+icpx
+icx
+ifx
+intel64
+ioc64
+opencl-aot
+sycl-ls
+sycl-post-link
+

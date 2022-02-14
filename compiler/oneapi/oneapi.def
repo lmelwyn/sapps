@@ -1,0 +1,18 @@
+BootStrap: docker
+From: quay.io/centos/centos:stream8
+
+%runscript
+echo "running oneapi from the container:"
+
+
+%post
+dnf group install "Development Tools" -y
+mkdir /apps
+cd /apps
+git clone https://github.com/spack/spack.git
+source /apps/spack/share/spack/setup-env.sh
+spack install intel-oneapi-compilers
+spack compiler find
+spack compiler add `spack location -i intel-oneapi-compilers`/compiler/latest/linux/bin/intel64
+spack compiler add `spack location -i intel-oneapi-compilers`/compiler/latest/linux/bin
+spack load  intel-oneapi-compilers@2022.0.2
