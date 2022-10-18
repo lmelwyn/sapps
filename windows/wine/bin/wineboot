@@ -1,0 +1,3 @@
+#!/bin/bash
+[[ -z "${SAPP_PATH}" ]] && SAPP_PATH='/apps/external/sapps' || SAPP_PATH="${SAPP_PATH}"
+/usr/bin/singularity exec $SAPP_PATH/windows/wine/wine.sif wineboot $@
